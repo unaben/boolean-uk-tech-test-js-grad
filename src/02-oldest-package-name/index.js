@@ -1,5 +1,5 @@
 /**
- * Make the following POST request:
+ * Make the following POST request with either axios or node-fetch:
 
 POST url: http://ambush-api.inyourarea.co.uk/ambush/intercept
 BODY: {
