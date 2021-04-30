@@ -1,6 +1,6 @@
 # Graduate JS exercise
 
-Hello hello, thanks for taking your time to complete this exercise.
+Hello, thanks for taking the time to complete this exercise.
 
 ## Setup
 
