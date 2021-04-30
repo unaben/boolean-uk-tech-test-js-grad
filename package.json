@@ -4,18 +4,19 @@
   "description": "Test for candidates",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --runInBand"
+    "test": "jest --watchAll --runInBand",
+    "postinstall": "husky install"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pavelpichrt/test-array-sort.git"
+    "url": "git+https://github.com/stu-dev/test-js-grad.git"
   },
-  "author": "Pavel Pichrt",
+  "author": "Reach Labs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pavelpichrt/test-array-sort/issues"
+    "url": "https://github.com/stu-dev/test-js-grad/issues"
   },
-  "homepage": "https://github.com/pavelpichrt/test-array-sort#readme",
+  "homepage": "https://github.com/stu-dev/test-js-grad#readme",
   "devDependencies": {
     "eslint": "^7.25.0",
     "husky": "^6.0.0",
