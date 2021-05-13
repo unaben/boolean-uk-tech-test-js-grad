@@ -16,9 +16,9 @@ Before you do anything else, run `npm test` in your terminal. This will will run
 
 ### Implementation
 
-This exercise consists of four tasks defined in the `./src` directory. Each task contains a test file (`index.test.js`) with tests the expected functionality (do not change it). These tests also describe what the function should do, so read them carefully. It is up to you to implement a function in `index.js` within the same directory, so that the tests pass.
+This exercise consists of three tasks defined in the `./src` directory. Each task contains a test file (`index.test.js`) with tests the expected functionality (do not change it). These tests also describe what the function should do, so read them carefully. It is up to you to implement a function in `index.js` within the same directory, so that the tests pass.
 
-Note that `index.js` may contain additional information which may be useful to you or require you to provide time complexity for the function you implemented.
+Note that `index.js` may contain additional information which may be useful to you for the function you implemented.
 
 ## Submission
 
