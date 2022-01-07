@@ -38,9 +38,30 @@ The results should have this structure:
  * NOTE: the parent array and each "packageNames" array should 
  * be in alphabetical order.
  */
-
+const fetch = require('node-fetch');
 module.exports = async function organiseMaintainers() {
   // TODO
+  const fetchOptions = {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      url: 'https://api.npms.io/v2/search/suggestions?q=react',
+      method: 'GET',
+      return_payload: true,
+    }),
+  };
 
-  return maintainers
+  const res = await fetch(
+    'http://ambush-api.inyourarea.co.uk/ambush/intercept',
+    fetchOptions,
+  );
+
+  const data = await res.json();
+
+  // console.log({ IncomingData: data.content });
+
+
+  // return maintainers
 };
